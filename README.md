@@ -1,7 +1,6 @@
 # Neural Network Comparison Classification
 
-**PART 1**
-**(Part 1.ipynb contains all code)**
+**PART 1 [View the Notebook](Part1.ipynb)**
 
 The aim of this part is to use a variety of model architectures on data
 from a Guardian dataset to complete a multi-class prediction problem and
