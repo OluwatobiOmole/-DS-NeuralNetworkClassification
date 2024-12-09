@@ -60,6 +60,9 @@ training data with the validation data used to monitor the model\'s
 performance during training. The training is run for 5 epochs with a
 batch size of 32.
 
+![image](https://github.com/user-attachments/assets/fd477973-8243-4817-92c0-eede697da704)
+![image](https://github.com/user-attachments/assets/abc0a518-8087-408f-a093-cd54ee561bd7)
+
 
 
 Basic RNN with single layer (No Embeddings Layer) performance
@@ -74,6 +77,9 @@ added to output the predicted probabilities for each class. The model is
 trained the training data. The same process is used to define and train
 the RNN model, but with a SimpleRNN layer instead of an LSTM layer.
 
+![image](https://github.com/user-attachments/assets/8830c9de-10cc-4978-adae-c152f2805483)
+![image](https://github.com/user-attachments/assets/1fe77007-27dc-4a27-83d8-97c1a492ea7b)
+
 
 
 Basic LSTM with single layer (No Embeddings Layer) performance
@@ -87,6 +93,9 @@ prevent overfitting. The final layer is a Dense layer with a softmax
 activation function. The model is trained and the history of accuracy
 and loss during training is saved.
 
+![image](https://github.com/user-attachments/assets/f323ea55-3ec6-4df6-9e86-0b84ac90de9c)
+![image](https://github.com/user-attachments/assets/edd01115-a24e-410d-ac7d-bee9e5838eaf)
+
 
 
 LSTM with multiple layers (No Embeddings Layer) performance
@@ -96,11 +105,13 @@ LSTM with multiple layers (No Embeddings Layer) performance
 **Comparison of Basic RNN model and LSTM with single layer**
 
 
+![image](https://github.com/user-attachments/assets/c7ecebf5-ae73-40fc-9215-820592270fba)
 
 Performance of Basic RNN model and LSTM with single layer compared.
 
 **Comparison of Single Layer LSTM with Multiple layer LSTM**
 
+![image](https://github.com/user-attachments/assets/0ff80619-8a51-4f07-bfdf-fc3464183f91)
 
 Performance of Single Layer LSTM with Multiple layer LSTM compared.
 
@@ -112,6 +123,9 @@ Create an LSTM model architecture with an embeddings layer. The
 Embedding layer is added as the first layer. The model has 2 LSTM layers
 with a dropout added after each LSTM layer. Next, the model has a Dense
 layer a softmax activation. The training history is saved.
+
+![image](https://github.com/user-attachments/assets/1f79c22b-d6a0-4a8e-8e7a-fc1ec9e4cf6c)
+![image](https://github.com/user-attachments/assets/01b2803a-9b93-460a-ab64-9d4a24b18f3d)
 
 
 
@@ -135,7 +149,7 @@ of accuracy and loss during training is saved.
 
 **Comparison of On the Fly Embeddings Model with Bag of Words model**
 
-
+![image](https://github.com/user-attachments/assets/76d25df0-369a-40a2-9f77-6047bcc2a614)
 
 Performance of On-the-Fly Embeddings Model with Bag of Words model
 
@@ -149,6 +163,9 @@ filter sizes and activation functions, a dropout layer to reduce
 overfitting, and a global max pooling layer to select the most important
 features. Finally, a dense layer with a softmax activation function is
 used to output the predicted class probabilities.
+
+![image](https://github.com/user-attachments/assets/087c40ff-1011-4271-b6ce-424078add10c)
+![image](https://github.com/user-attachments/assets/d2035664-820b-4511-bbf3-335d0697b4aa)
 
 
 
@@ -165,13 +182,16 @@ then reshaped to prepare for the LSTM layer. An LSTM layer is used
 before the dense layer. Finally, a dense layer with a softmax activation
 function is used.
 
+![image](https://github.com/user-attachments/assets/a5718e47-5faa-44f9-b8c8-971e914a6e17)
+![image](https://github.com/user-attachments/assets/abd3cd96-8baf-4992-8f36-2d48b6fb6e43)
+
 
 
 **Model Comparison of CNNs for Text Classification**
 
 **Comparison of CNN as alternative to LSTM and CNN with LSTM models**
 
-
+![image](https://github.com/user-attachments/assets/08bfcbd3-bbcd-4ab4-b7e1-ca0b7140c943)
 
 Performance of CNN as alternative to LSTM and CNN with LSTM models
 
@@ -183,6 +203,7 @@ on both the training and validation sets. After all iterations, the
 average training accuracy and average validation accuracy are
 calculated.
 
+![image](https://github.com/user-attachments/assets/7372a75d-41f0-43f7-b3c6-6da46c5e2f61)
 
 
 Non-Neural Method performance
@@ -192,6 +213,7 @@ method**
 
 **Comparison of non-neural method to best performing neural method**
 
+![image](https://github.com/user-attachments/assets/871a695f-d4ae-419d-8d11-44e5b3a5c6ec)
 
 
 **Performance of non-neural method to best performing neural method**
@@ -215,12 +237,15 @@ followed by a dropout layer for regularization. The outputs of both LSTM
 layers are concatenated and passed through a dense layer with softmax
 activation.
 
+![image](https://github.com/user-attachments/assets/2739f6f5-9e69-4507-b2f9-d77c1202279c)
 
 
 **Model Comparison of Additional Data model and best performing neural
 model**
 
 **Comparison of Two Input Model with best performing neural model**
+
+![image](https://github.com/user-attachments/assets/af3bc27c-6129-4200-ac3d-9a6efe61ac4c)
 
 
 Performance of Two Input Model with best performing neural model
@@ -252,6 +277,7 @@ a rate of is added to prevent overfitting, followed by a global max
 pooling layer and a dense output layer with a softmax activation
 function.
 
+![image](https://github.com/user-attachments/assets/27c1f00c-8063-4065-8487-7bb2e23506df)
 
 
 Performance of Model Variant from Scratch (CNN model) - No transfer
@@ -266,7 +292,7 @@ followed by a reshape layer, an LSTM layer with dropout, and a dense
 layer with a softmax activation function. The weights of the pretrained
 CNN layers are frozen to prevent them from being trained again.
 
-
+![image](https://github.com/user-attachments/assets/7fd9a6c0-12a6-4c06-8d83-f7e40430909f)
 
 Performance of Transfer Learning (I) - New CNN model with input from
 previous CNN model created in Part 1.
@@ -281,6 +307,8 @@ model, a Reshape layer to ensure the input shape compatibility with the
 LSTM layer, and an LSTM layer. The weights of the pretrained model are
 frozen, and a dense output layer is added for softmax.
 
+![image](https://github.com/user-attachments/assets/283efa70-32f6-4046-b7c5-f6e36cbed0f2)
+
 
 Performance of Transfer Learning (II) - New CNN model with input from
 previous CNN model created in Part 1.
@@ -290,6 +318,7 @@ previous CNN model created in Part 1.
 **Comparison of Model Variant with no transfer learning to New CNN model
 with transfer learning I**
 
+![image](https://github.com/user-attachments/assets/e11b7c01-cf4c-48a0-9eb8-db41ca097bb4)
 
 
 Performance of Model Variant with no transfer learning to New CNN model
@@ -298,12 +327,15 @@ with transfer learning I
 **Comparison of Model Variant with no transfer learning to New CNN model
 with transfer learning II**
 
+![image](https://github.com/user-attachments/assets/453e683f-b0b2-4b44-8189-3ddafa773b73)
 
 
 Performance of Model Variant with no transfer learning to New CNN model
 with transfer learning II
 
 **Comparison of Transfer Learning Models**
+
+![image](https://github.com/user-attachments/assets/64ff5efd-b738-43a6-8fad-fc2de828f3eb)
 
 
 Performance of Transfer Learning Models
@@ -356,12 +388,9 @@ the model using the evaluate method with the test data. calculates the
 perplexity of the model and the test loss, test accuracy, and
 perplexity.
 
-![Chart, line chart Description automatically
-generated](vertopal_c62aa4d5748d4b36950ac8b6db30a93e/media/image27.png){width="2.298429571303587in"
-height="1.5375535870516186in"}![Chart, line chart Description
-automatically
-generated](vertopal_c62aa4d5748d4b36950ac8b6db30a93e/media/image28.png){width="2.0691010498687663in"
-height="1.4486001749781277in"}
+![image](https://github.com/user-attachments/assets/f955f6ce-0563-4398-b840-ce1ad9596576)
+![image](https://github.com/user-attachments/assets/b5cc34e0-f6e5-4839-ad8f-e8f706204fd2)
+
 
 Performance of LSTM with multiple layers for creating the generative
 model.
