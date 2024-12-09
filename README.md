@@ -1,7 +1,7 @@
 # Neural Network Comparison Classification
 
 **PART 1**
-**Part 1.ipynb contains all code**
+**(Part 1.ipynb contains all code)**
 
 The aim of this part is to use a variety of model architectures on data
 from a Guardian dataset to complete a multi-class prediction problem and
@@ -251,7 +251,7 @@ model**
 Performance of Two Input Model with best performing neural model
 
 **PART 2**
-**Part 2.ipynb contains all code**
+**(Part 2.ipynb contains all code)**
 
 The aim of this part is to use a variety of model architectures on data
 from a BBC dataset to complete a classification prediction problem and
@@ -341,7 +341,7 @@ with transfer learning II
 Performance of Transfer Learning Models
 
 **PART 3**
-**Part 3.ipynb contains all code**
+**(Part 3.ipynb contains all code)**
 
 The aim of this part is to create a text generation model based on a
 model trained on the BBC dataset, to generate random text with some sort
