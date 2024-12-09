@@ -1,6 +1,4 @@
-> **Neural Network Comparison Classification**
-> Oluwatobi Omole
-
+**Neural Network Comparison Classification**
 
 **PART 1**
 
